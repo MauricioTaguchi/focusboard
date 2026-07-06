@@ -1,63 +1,69 @@
 # FocusBoard
 
-![Java](https://img.shields.io/badge/Java-17-blue)
-![Swing](https://img.shields.io/badge/UI-Java%20Swing-brightgreen)
-![Build](https://img.shields.io/badge/Build-Maven-orange)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+Aplicação desktop desenvolvida em **Java Swing** para gerenciamento de tarefas.
 
-FocusBoard is a polished Java Swing desktop application for managing daily tasks with a simple, professional interface. It demonstrates desktop UI development, local data persistence, table-based interaction, filtering, search, and Maven project structure.
+O projeto permite criar, concluir, excluir, buscar e filtrar tarefas, mantendo os dados salvos localmente.
 
-## Preview
+Este projeto demonstra conhecimentos em **Java, interface gráfica, persistência local, organização com Maven e estruturação de código orientada a objetos**.
 
-![FocusBoard preview](docs/preview.svg)
+## Objetivo do projeto
 
-## Highlights
+O objetivo do FocusBoard é criar uma aplicação simples e funcional para organização de tarefas diárias, com uma interface limpa e recursos úteis para produtividade.
 
-- Clean desktop UI built with standard Java Swing.
-- Add, complete, delete, search, and filter tasks.
-- Automatic local persistence, so tasks remain after closing the app.
-- MVC-inspired structure with separate classes for model, table logic, filtering, and storage.
-- Maven build configuration with an executable JAR.
-- GitHub Actions workflow for continuous integration.
+Além da funcionalidade, o projeto foi desenvolvido para demonstrar boas práticas de organização de código em uma aplicação desktop Java.
 
-## Features
+## Funcionalidades
 
-- Create tasks with a title and priority.
-- Mark tasks as active or completed.
-- Filter by all, active, or completed tasks.
-- Search tasks by title or priority.
-- Clear completed tasks in one action.
-- View live totals for all, active, and completed tasks.
-- Save task data automatically in the user's local profile.
+- Cadastro de tarefas
+- Marcação de tarefas como concluídas
+- Exclusão de tarefas
+- Busca por título ou prioridade
+- Filtro por todas, ativas ou concluídas
+- Limpeza de tarefas concluídas
+- Contadores de tarefas totais, ativas e concluídas
+- Persistência automática dos dados localmente
 
-## Tech Stack
+## Tecnologias utilizadas
 
 - Java 17
 - Java Swing
 - Maven
 - GitHub Actions
 
-## Getting Started
+## Estrutura do projeto
 
-### Requirements
+```text
+src/main/java/com/example/focusboard/
+├── FocusBoardApp.java          # Janela principal e composição da interface
+├── Task.java                   # Modelo de domínio da tarefa
+├── Priority.java               # Enum de prioridade
+├── FilterMode.java             # Enum de filtros
+├── TaskTableModel.java         # Modelo da tabela e lógica de filtros
+├── TaskRepository.java         # Persistência local
+└── SimpleDocumentListener.java # Listener para busca em tempo real
+```
 
-- Java 17 or later
-- Maven 3.8 or later
+## Como executar o projeto
 
-### Run with Maven
+### Requisitos
+
+- Java 17 ou superior
+- Maven 3.8 ou superior
+
+### Executar com Maven
 
 ```bash
 mvn clean package
 mvn exec:java
 ```
 
-### Run the JAR
+### Executar o arquivo JAR
 
 ```bash
 java -jar target/focusboard-1.0.0.jar
 ```
 
-### Run without Maven
+### Executar sem Maven
 
 ```bash
 mkdir -p out
@@ -65,34 +71,27 @@ javac -d out src/main/java/com/example/focusboard/*.java
 java -cp out com.example.focusboard.FocusBoardApp
 ```
 
-## Project Structure
+## O que este projeto demonstra
 
-```text
-src/main/java/com/example/focusboard/
-  FocusBoardApp.java          Main Swing window and UI composition
-  Task.java                   Task domain model
-  Priority.java               Task priority enum
-  FilterMode.java             Task filter enum
-  TaskTableModel.java         JTable data model and filtering logic
-  TaskRepository.java         Local file persistence
-  SimpleDocumentListener.java Utility listener for live search
-```
+- Desenvolvimento de aplicação desktop com Java Swing
+- Programação orientada a objetos
+- Manipulação de eventos de interface
+- Uso de tabelas com JTable
+- Separação entre interface, modelo, filtros e persistência
+- Persistência local com Java NIO
+- Organização de projeto com Maven
+- Configuração de CI com GitHub Actions
 
-## What This Project Demonstrates
+## Possíveis melhorias
 
-- Desktop application development with Java Swing.
-- Event-driven UI programming.
-- Separation of UI, domain, table model, and persistence responsibilities.
-- File-based local storage with Java NIO.
-- Maven packaging and GitHub-ready repository organization.
+- Adicionar datas de vencimento
+- Criar ordenação por prioridade e data
+- Adicionar temas claro e escuro
+- Implementar testes unitários
+- Adicionar exportação para CSV
+- Criar empacotamento executável para Windows
 
-## Roadmap
+## Autor
 
-- Add due dates and sorting.
-- Add import and export actions.
-- Add unit tests for task filtering and persistence.
-- Add theme selection for light and dark modes.
-
-## License
-
-This project is licensed under the MIT License.
+Maurício Ryo Toita Taguchi  
+GitHub: [MauricioTaguchi](https://github.com/MauricioTaguchi)
