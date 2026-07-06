@@ -1,0 +1,61 @@
+<svg width="1120" height="720" viewBox="0 0 1120 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1120" height="720" fill="#f6f7f9"/>
+  <rect x="92" y="72" width="936" height="576" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+  <rect x="92" y="72" width="936" height="46" rx="14" fill="#111827"/>
+  <circle cx="122" cy="95" r="7" fill="#ef4444"/>
+  <circle cx="146" cy="95" r="7" fill="#f59e0b"/>
+  <circle cx="170" cy="95" r="7" fill="#22c55e"/>
+  <text x="214" y="101" fill="#f9fafb" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">FocusBoard</text>
+
+  <text x="132" y="170" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">FocusBoard</text>
+  <text x="132" y="199" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="16">A focused desktop task board built with Java Swing.</text>
+
+  <rect x="132" y="238" width="248" height="318" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="158" y="278" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">New Task</text>
+  <text x="158" y="318" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Task title</text>
+  <rect x="158" y="331" width="196" height="34" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="170" y="353" fill="#6b7280" font-family="Segoe UI, Arial, sans-serif" font-size="13">Prepare sprint plan</text>
+  <text x="158" y="394" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Priority</text>
+  <rect x="158" y="407" width="196" height="34" fill="#f9fafb" stroke="#d1d5db"/>
+  <text x="170" y="429" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="13">High</text>
+  <rect x="158" y="466" width="196" height="38" fill="#2563eb"/>
+  <text x="221" y="490" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Add Task</text>
+
+  <text x="414" y="257" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Task List</text>
+  <rect x="660" y="236" width="180" height="34" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="676" y="258" fill="#6b7280" font-family="Segoe UI, Arial, sans-serif" font-size="13">Search tasks</text>
+  <rect x="854" y="236" width="122" height="34" fill="#ffffff" stroke="#d1d5db"/>
+  <text x="876" y="258" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="13">All Tasks</text>
+
+  <rect x="414" y="286" width="562" height="270" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="414" y="286" width="562" height="42" fill="#f3f4f6"/>
+  <text x="436" y="312" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Done</text>
+  <text x="512" y="312" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Task</text>
+  <text x="790" y="312" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Priority</text>
+  <text x="894" y="312" fill="#374151" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">Status</text>
+
+  <rect x="414" y="328" width="562" height="48" fill="#ffffff"/>
+  <rect x="438" y="344" width="16" height="16" fill="#2563eb"/>
+  <path d="M442 352L446 356L453 347" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="512" y="359" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="14">Design the project README</text>
+  <text x="790" y="359" fill="#dc2626" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">High</text>
+  <text x="894" y="359" fill="#16a34a" font-family="Segoe UI, Arial, sans-serif" font-size="14">Completed</text>
+
+  <rect x="414" y="376" width="562" height="48" fill="#f9fafb"/>
+  <rect x="438" y="392" width="16" height="16" fill="#ffffff" stroke="#9ca3af"/>
+  <text x="512" y="407" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="14">Create the Swing layout</text>
+  <text x="790" y="407" fill="#d97706" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Medium</text>
+  <text x="894" y="407" fill="#2563eb" font-family="Segoe UI, Arial, sans-serif" font-size="14">Active</text>
+
+  <rect x="414" y="424" width="562" height="48" fill="#ffffff"/>
+  <rect x="438" y="440" width="16" height="16" fill="#ffffff" stroke="#9ca3af"/>
+  <text x="512" y="455" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="14">Prepare the GitHub repository</text>
+  <text x="790" y="455" fill="#059669" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Low</text>
+  <text x="894" y="455" fill="#2563eb" font-family="Segoe UI, Arial, sans-serif" font-size="14">Active</text>
+
+  <rect x="132" y="586" width="844" height="42" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="158" y="612" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">3 total</text>
+  <text x="282" y="612" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">2 active</text>
+  <text x="414" y="612" fill="#1f2937" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">1 completed</text>
+  <text x="840" y="612" fill="#4b5563" font-family="Segoe UI, Arial, sans-serif" font-size="13">Saved locally</text>
+</svg>
